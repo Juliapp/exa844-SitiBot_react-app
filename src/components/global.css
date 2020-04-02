@@ -1,0 +1,15 @@
+.cardConfig {
+  list-style: none;
+  text-decoration: none;
+}
+
+.cardConfig a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.cardConfig img {
+  max-width: 20px;
+  max-height: 20px;
+  background-size: cover;
+}

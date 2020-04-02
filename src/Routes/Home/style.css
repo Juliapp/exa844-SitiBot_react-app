@@ -1,0 +1,19 @@
+.distribution {
+  display: grid;
+  justify-items: right;
+  margin-bottom: 3rem;
+  max-height: 324px;
+}
+
+@media (max-width: 760px) {
+  .distribution {
+    justify-items: center;
+  }
+}
+
+.inst {
+  max-width: 500px;
+  align-self: center;
+  text-align: center;
+  display: grid;
+}

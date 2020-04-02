@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+
+.react-calendar {
+  width: 300px;
+  font-family: "Roboto", serif;
+  font-style: normal;
+}
+
+.react-calendar__day--decorate {
+  cursor: pointer;
+}
+
+/*Modificar depois a cor laranja para se aplicar melhor a aplicação*/
+.react-calendar__day--today span {
+  border-radius: 50%;
+  background: #f5a781;
+  color: #fff !important;
+}
+
+.react-calendar__day--selected span {
+  border-radius: 50%;
+  background: #eb4f04;
+  color: #fff !important;
+}
+
+.react-calendar__weekdays {
+  color: #b5b5b5 !important;
+}

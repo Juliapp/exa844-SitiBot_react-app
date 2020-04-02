@@ -1,0 +1,19 @@
+.jumbotron {
+  background: url("../../assets/uefs.jpg") no-repeat fixed center;
+  background-size: cover;
+  color: #ccc;
+  position: relative;
+  height: 300px;
+  z-index: -2;
+}
+
+.overlay {
+  background-color: #000;
+  opacity: 0.8;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
